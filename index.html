@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITSAMOOD by CMood</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="logo">ITSAMOOD</div>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <nav class="dropdown" id="dropdown">
+        <a href="#home">Home</a>
+        <a href="#apparel">Apparel</a>
+        <a href="#story">The Mood</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="intro">
+      <div class="hero__content">
+        <img
+          src="./assets//IMG_9923 2.jpg"
+          alt="ITSAMOOD logo"
+          class="hero__logo"
+        />
+
+        <p>
+          A lifestyle brand built around mood, intention, and self-expression.
+        </p>
+
+        <button class="cta" id="enterBtn">Enter Site</button>
+      </div>
+    </section>
+
+    <main class="site site--hidden" id="site">
+      <header class="site__header">
+        <div class="site__brand">ITSAMOOD</div>
+
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+        <nav class="dropdown" id="dropdown">
+          <a href="#home">Home</a>
+          <a href="#apparel">Apparel</a>
+          <a href="#mood">The Mood</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <section class="coverflow-section" aria-label="3D image menu">
+        <div class="coverflow-viewport">
+          <button class="coverflow-btn" id="prevBtn" aria-label="Previous">
+            ‹
+          </button>
+
+          <ul class="coverflow" id="coverflow">
+            <li class="card is-active" data-link="#home">
+              <img
+                src="./assets/Photoroom_20260312_165933.PNG"
+                alt="New Arrivals"
+              />
+              <p>NEW ARRIVALS</p>
+            </li>
+
+            <li class="card" data-link="#apparel">
+              <img
+                src="./assets/Photoroom_20260312_171256.PNG"
+                alt="The Mood"
+              />
+              <p>SHOP THE MOOD</p>
+            </li>
+
+            <li class="card" data-link="#mood">
+              <img
+                src="./assets/Photoroom_20260115_131242.PNG"
+                alt="The Reason"
+              />
+              <p>THE REASON</p>
+            </li>
+
+            <li class="card contact-card is-form" data-link="#contact">
+              <form class="contact-form">
+                <h3>
+                  If anything affects your mood, fill out the form below. Thank
+                  you.
+                </h3>
+                <p class="contact-sub">Contact</p>
+
+                <label>
+                  Name
+                  <input type="text" placeholder="Your name" />
+                </label>
+
+                <label>
+                  Order #
+                  <input type="text" placeholder="Optional" />
+                </label>
+
+                <label>
+                  Message
+                  <textarea placeholder="Tell us what’s going on…"></textarea>
+                </label>
+
+                <button type="submit">Send</button>
+              </form>
+
+              <p class="card-label">Contact</p>
+            </li>
+          </ul>
+
+          <button class="coverflow-btn" id="nextBtn" aria-label="Next">
+            ›
+          </button>
+        </div>
+      </section>
+
+      <section class="home" id="home">
+        <h1 class="home__title">Shop the Mood</h1>
+        <p class="home__subtitle">New drops • Essentials • Statement pieces</p>
+
+        <div class="grid" id="apparel">
+          <article class="card">
+            <div class="card__img"></div>
+            <h3 class="card__title">Signature Tee</h3>
+            <p class="card__meta">Black / White • Coming soon</p>
+          </article>
+
+          <article class="card">
+            <div class="card__img"></div>
+            <h3 class="card__title">Cozy Set</h3>
+            <p class="card__meta">Soft • Everyday</p>
+          </article>
+
+          <article class="card">
+            <div class="card__img"></div>
+            <h3 class="card__title">Mood Hoodie</h3>
+            <p class="card__meta">Oversized • Heavyweight</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="mood">
+        <h2>The Mood</h2>
+        <p>
+          Minimal. Intentional. Built for how you feel — not just how you look.
+        </p>
+      </section>
+
+      <section class="section" id="contact">
+        <h2>Contact</h2>
+        <p>IG: @itsamoodbycmood • Email: (add yours)</p>
+      </section>
+
+      <footer class="footer">© <span id="year"></span> ITSAMOOD</footer>
+    </main>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
