@@ -2,6 +2,9 @@
 
 A clean, minimal brand website concept for ITSAMOODBYCMOOD.
 
+Live Site
+https://c-mood.github.io/itsamood-brand-website/
+
 ## Overview
 
 This project explores a intro splash screen that transitions into a main homepage without reloading the page. The focus is on brand presentation, smooth animation, and intentional layout.
@@ -32,4 +35,4 @@ This approach creates a polished user experience without page reloads.
 
 ## Notes
 
-This README is a working document and will be updated as the site evolves.
+This is a working document and will be updated as the site evolves.
