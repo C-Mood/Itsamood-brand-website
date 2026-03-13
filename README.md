@@ -3,7 +3,7 @@
 A clean, minimal brand website concept for ITSAMOODBYCMOOD.
 
 Live Site
-https://c-mood.github.io/itsamood-brand-website/
+https://c-mood.github.io/Itsamood-brand-website/
 
 ## Overview
 
